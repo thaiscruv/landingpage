@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-logo-sale {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background: lightpink;
+}
+
+.section-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-section-one {
+  background-image: url(../assets/Fundo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-section-two {
+  background-image: url(../assets/Fundo2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card.container {
+  background: white;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 450px;
+  display: grid;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background: purple;
+  color: white;
+}
+
+form {
+  display: grid;
+}
+
+footer {
+  height: 150px;
+  padding: 25px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
